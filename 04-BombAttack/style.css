@@ -1,0 +1,78 @@
+body{
+    background-color: beige;
+}
+
+.Linea{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Contenido{
+    display: flex;
+    align-items: center;
+}
+
+
+h1{
+    margin: 0px;
+    padding: 10px 0;
+    border: 10px solid #000;
+    border-radius: 1%;
+    border-style: ridge;
+    border-color: rgba(31, 123, 100, 0.63);
+    background-color: rgb(115, 218, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*
+    border-color: rgba(31, 123, 100, 0.63);
+    background-color: rgb(115, 218, 236);
+*/
+}
+
+.Explosion:hover{
+    cursor: not-allowed;
+    width: 150px;
+    background-position-y: center;
+    background-size: contain;
+    background-image: url(/images/Bang.png);
+    background-repeat: no-repeat;
+    scale: 120%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    rotate: 360deg;    
+}
+
+.Agua:hover{
+    cursor: wait;
+    width: 150px;
+    background-position-y: center;
+    background-size: contain;
+    background-image: url(/images/Agua.png);
+    background-repeat: no-repeat;
+    scale: 120%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+}
+
+.Fichas{
+    padding: 10% 0;
+    border: 2px solid #000;
+    border-radius: 3%;
+    border-color: rgb(226, 43, 43);
+    background-color: rgb(157, 188, 215);
+    width: 150px;
+    margin: 25px;
+    box-shadow: 15px 15px 15px;
+}
+
+.Fichas:hover{
+    scale: 150%;
+    transition: 0.5s;
+    opacity: 0%;
+}
