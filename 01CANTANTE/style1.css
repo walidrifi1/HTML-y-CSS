@@ -1,0 +1,95 @@
+body{
+    padding-left: 5px;
+    background-color: azure;
+}
+
+h1{
+   border-style: double;
+   border-color: brown;
+    text-align: center;
+    padding: 15px;
+    margin:0px;
+    transition: 1s;
+    
+
+}
+h3{
+    margin-left: 20px;
+    color: rgb(34, 2, 2);
+    font-size: 25px;
+    text-decoration-line: underline;
+    padding-top: 20px;
+}
+
+.exitos{
+    padding-left: 100px;
+}
+
+.CANTANTES{
+    padding-left: 100px;
+}
+
+
+
+header{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    transition: 1s;
+    
+}
+header:hover{
+    background-color: rgb(216, 255, 252);
+    transition: 2s;
+}
+#inici:hover{
+    font-weight: bold;
+}
+
+
+.CANTANTES:hover{
+
+font-weight: bold;
+
+}
+.exitos:hover{
+
+    font-weight: bold;
+    }
+
+footer{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+   .autores{
+        background-color: brown;
+        
+    }
+.cajetin{
+    background-color: azure;
+    border-style: inset;
+    border-color: black;
+    display: flex;
+    font-size: large;
+    
+}
+.text{
+    
+    display: flex;
+    flex-direction:column;
+    font-size: large;
+}
+#foto{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+p{
+    margin-left: 10px;
+ text-align: justify;
+ padding: 10px;
+}

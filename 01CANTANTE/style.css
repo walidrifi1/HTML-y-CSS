@@ -1,0 +1,66 @@
+body{
+    padding-left: 5px;
+    background-color: azure;
+}
+
+h1{
+   border-style: double;
+   border-color: brown;
+    text-align: center;
+    padding: 15px;
+    margin:0px;
+    transition: 1s;
+    
+
+}
+
+.exitos{
+    padding-left: 100px;
+}
+
+.CANTANTES{
+    padding-left: 100px;
+}
+header{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: azure;
+    transition: 1s;
+   
+    
+}
+header:hover{
+    background-color: rgb(216, 255, 252);
+    transition: 2s;
+}
+#inici:hover{
+    font-weight: bold;
+}
+
+
+.CANTANTES:hover{
+
+font-weight: bold;
+
+}
+.exitos:hover{
+
+    font-weight: bold;
+    }
+
+footer{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+
+.parrafo{
+    font-size: large;
+}
+
+.fondo{
+    width: 100%;
+}
