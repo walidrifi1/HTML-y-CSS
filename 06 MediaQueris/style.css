@@ -1,0 +1,52 @@
+body{
+    background-image: url(galaxia\ movil.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ 
+    
+}
+.bordes{
+    margin: 20px;
+    width: 70%;
+    height: 70%;
+}
+h1{
+    color: aqua;
+}
+h3{
+    margin-left:40px;
+    color: rgb(0, 255, 0);
+}
+
+@media (width>750px) {
+body{
+    background-image: url(galaxia\ pc.jpg);
+}
+.bordes{
+ width: 300px;
+ height: 40%;
+}
+
+.image{
+    margin: left 10px;;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+justify-content: space-around;
+}
+
+
+
+
+
+}
