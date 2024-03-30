@@ -1,0 +1,74 @@
+body{
+    background-image: url(primer-plano-gerbera-blanca_23-2147835648.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(238, 238, 178);
+}
+
+.imagenes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+nav{
+    z-index: 2;
+    margin-top: 20px;
+    position:sticky;
+    top: 0px;
+    
+
+    
+
+}
+nav:hover{
+    background-color: azure ;
+    transition: 1s;
+    opacity: 70%;
+}
+
+
+.w1{
+    /* margin: 40px; */
+    margin-left: 300px;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+
+}
+.w2{
+    /* margin-left: 350px; */
+    margin-right: 300px;
+    margin-top: -100px;
+    margin-bottom: -100px;
+    height: 50%;
+    width: 50%;
+
+}
+
+footer{
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  
+}
+img{
+    box-shadow: 15px 15px 15px rgb(146, 146, 206);
+    border-radius: 200px;
+}
+
+img:hover{ 
+   z-index: 2;
+   box-shadow: 15px 15px 15px rgb(0, 0, 0);
+   transition: 500ms;
+
+}
+.footer{
+    background-size: cover;
+    background-color: antiquewhite;
+
+}
