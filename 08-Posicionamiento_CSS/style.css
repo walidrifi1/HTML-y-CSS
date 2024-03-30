@@ -1,0 +1,17 @@
+body{
+    position: relative;
+    background-image: url(images/mapamundi.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.egipto{
+    position: absolute;
+    left: 51%;
+    bottom: 10%;
+    display: flex;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+}
