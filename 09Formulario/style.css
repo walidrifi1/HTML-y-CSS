@@ -1,0 +1,35 @@
+body{
+    background-image: url(deliciosa-pizza-napolitana-tablero_78826-3345.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px;
+}
+.formulariopizza{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.observaciones{
+background-color: rgb(156, 109, 70);
+padding: 10px;
+border-radius: 10px;
+}
+
+.delivery{
+    background-color: rgb(48, 104, 104);
+    padding: 10px;
+    border-radius: 10px;
+}
+div{
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 50px;
+}
+form{
+    padding: 0px;
+}
+
+fieldset{
+    border-radius: 9px;
+    background-color: rgba(128, 128, 128, 0.445);
+}
